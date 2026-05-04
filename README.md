@@ -31,7 +31,7 @@ Interactive **3D site overview** and linked **environmental data views** for the
 | Area | Stack |
 |------|--------|
 | Viewer | HTML/CSS, [Three.js](https://threejs.org/) (ES modules), OBJLoader |
-| Backing services | Python 3.11+, [uv](https://github.com/astral-sh/uv), Panel, NumPy/Pandas, PyVista/Trimesh (where used) |
+| Backing services | Python 3.11+, [uv](https://github.com/astral-sh/uv), Panel, NumPy/Pandas, PyVista/Trimesh |
 
 ## Prerequisites
 
