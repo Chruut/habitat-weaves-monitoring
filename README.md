@@ -20,7 +20,8 @@ Interactive **3D site overview** and linked **environmental data views** for the
 <img width="860" height="632" alt="chrome_DfGgwzH916" src="https://github.com/user-attachments/assets/0da5d2b9-ace0-408d-8850-50d8e5789711" />
 
 ### Sandarium Heatmap
-<img width="887" height="553" alt="firefox_Xblc9ucWvR" src="https://github.com/user-attachments/assets/30313041-055a-49ce-a63c-2f3d6fbeb363" />
+<img width="954" height="607" alt="firefox_GBHjpcbHto" src="https://github.com/user-attachments/assets/300a7e6b-fed4-4cb2-b30b-69be3e04b220" />
+
 
 ### Sensory Data Dashboards
 
