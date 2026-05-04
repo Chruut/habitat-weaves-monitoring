@@ -4,9 +4,19 @@ Interactive **3D site overview** and linked **environmental data views** for the
 
 ## Features
 
-- **Site viewer** (`site_viewer.html`): orbit controls, fog/sky, station markers and tooltips, iframed sub-pages in the sidebar workflow.
-- **Dashboards** (Holoviz Panel): Sandarium environmental dashboard, camera playback, and soil-audio player (separate dev servers).
-- **3D pipeline** (Python): mesh decimation and asset prep (`decimate_model.py`) toward web-friendly OBJ/MTL and `interaction_points.json`.
+- **3D scan** [(polycam)](www.poly.cam): Environmental topography and texturing using photogrammetry
+- **3D pipeline** (Python): Mesh decimation and asset prep (`decimate_model.py`) toward web-friendly OBJ/MTL and `interaction_points.json`.
+- **Site viewer**: Orbit controls, fog/sky, station markers and tooltips, iframed sub-pages in the sidebar workflow.
+- **Sensory Data Dashboard**: Integration of ESP32-based mesh of environmental sensors, field cameras and soil contact microphone recordings
+- **Heatmaps** (Python): Soil temperature and humidity sensors distributed over the "Sandarium" habitat create a comprehensive coverage of year-round environmental conditions
+
+### 3D viewer 
+<img width="860" height="632" alt="chrome_DfGgwzH916" src="https://github.com/user-attachments/assets/0da5d2b9-ace0-408d-8850-50d8e5789711" />
+
+### Sandarium Heatmap
+
+### Sensory Data Dashboards
+
 
 ## Tech stack
 
