@@ -1,6 +1,6 @@
-# HabitatWeaves – Web visualization (Dessau Bauhaus)
+# Habitat Weaves – Web visualization (Bauhaus Foundation, 100 year anniversary)
 
-Interactive **3D site overview** and linked **environmental data views** for the Habitat Weaves / Dessau Bauhaus research context. The Home experience is a Three.js viewer with an OBJ/MTL building model, sensor **heatmap-style overlays**, and navigation to companion dashboards.
+Interactive **3D site overview** and linked **environmental data views** for the Habitat Weaves / Bauhaus Dessau (GER), architecture for biodiversity research context. The Web Browser experience is a Three.js viewer with an OBJ/MTL building model, sensor **heatmap-style overlays**, and navigation to companion dashboards.
 
 ## Features
 
