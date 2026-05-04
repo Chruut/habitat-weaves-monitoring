@@ -6,7 +6,7 @@ Interactive **3D site overview** and linked **environmental data views** for the
 
 | | |
 |---|---|
-| <img src="https://github.com/user-attachments/assets/8358dd45-7e1f-4887-9c3b-03153fee7966" width="300"/> | <img src="https://github.com/user-attachments/assets/6bbc8a19-4648-4ab5-a537-8a4c0a07ae3b" width="300"/> |
+| <img src="https://github.com/user-attachments/assets/8358dd45-7e1f-4887-9c3b-03153fee7966" width="500"/> | <img src="https://github.com/user-attachments/assets/6bbc8a19-4648-4ab5-a537-8a4c0a07ae3b" width="500"/> |
 
 
 <div style="display: flex; gap: 10px;">
