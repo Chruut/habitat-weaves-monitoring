@@ -4,6 +4,11 @@ Architecture for Biodiversity Installation - Bauhaus Foundation, 100 year Annive
 
 Interactive **3D site overview** and linked **environmental data views** for the Habitat Weaves x Bauhaus Dessau, architecture for biodiversity research colaboration. The Web Browser experience is a Three.js viewer with an OBJ/MTL building model, sensor **heatmap-style overlays**, and navigation to companion dashboards.
 
+| | |
+|---|---|
+| <img src="https://github.com/user-attachments/assets/8358dd45-7e1f-4887-9c3b-03153fee7966" width="300"/> | <img src="https://github.com/user-attachments/assets/6bbc8a19-4648-4ab5-a537-8a4c0a07ae3b" width="300"/> |
+
+
 <div style="display: flex; gap: 10px;">
   <img width="384" height="512" alt="IMG-20260303-WA0015" src="https://github.com/user-attachments/assets/8358dd45-7e1f-4887-9c3b-03153fee7966" />
   <img width="512" height="384" alt="IMG-20260319-WA0017" src="https://github.com/user-attachments/assets/6bbc8a19-4648-4ab5-a537-8a4c0a07ae3b" />
