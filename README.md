@@ -1,0 +1,69 @@
+# HabitatWeaves – Web visualization (Dessau Bauhaus)
+
+Interactive **3D site overview** and linked **environmental data views** for the Habitat Weaves / Dessau Bauhaus research context. The Home experience is a Three.js viewer with an OBJ/MTL building model, sensor **heatmap-style overlays**, and navigation to companion dashboards.
+
+## Features
+
+- **Site viewer** (`site_viewer.html`): orbit controls, fog/sky, station markers and tooltips, iframed sub-pages in the sidebar workflow.
+- **Dashboards** (Holoviz Panel): Sandarium environmental dashboard, camera playback, and soil-audio player (separate dev servers).
+- **3D pipeline** (Python): mesh decimation and asset prep (`decimate_model.py`) toward web-friendly OBJ/MTL and `interaction_points.json`.
+
+## Tech stack
+
+| Area | Stack |
+|------|--------|
+| Viewer | HTML/CSS, [Three.js](https://threejs.org/) (ES modules), OBJLoader |
+| Backing services | Python 3.11+, [uv](https://github.com/astral-sh/uv), Panel, NumPy/Pandas, PyVista/Trimesh (where used) |
+
+## Prerequisites
+
+- Python **3.11+**
+- [uv](https://docs.astral.sh/uv/) for installing dependencies from `pyproject.toml`
+
+## Quick start (site viewer)
+
+From the repository root:
+
+```bash
+uv sync
+uv run python serve_site.py
+```
+
+Open **[http://localhost:8080/site_viewer.html](http://localhost:8080/site_viewer.html)**.
+
+The viewer loads **`media/3D-objects/decimated/interaction_points.json`**, which defines OBJ/MTL paths and interaction metadata. Ensure that JSON and the referenced assets exist (or update paths after running your decimation/export workflow).
+
+## Full stack (optional)
+
+`start_all.py` launches the static site plus Panel apps and targets a Chromium kiosk URL. It assumes Linux-style paths for `uv` and the browser; on Windows, start services individually, for example:
+
+```bash
+uv run python serve_site.py
+# In other terminals, as needed:
+uv run panel serve sandarium_dashboard.py --port 5006 --allow-websocket-origin "*"
+uv run panel serve camera_player.py --port 5007 --static-dirs video_db=./video_db --allow-websocket-origin "*"
+uv run panel serve audio_player.py --port 5008 --static-dirs audio_db=./data/audio media_audio=./media/audio --allow-websocket-origin "*"
+```
+
+Ports **5006–5008** match the links wired from `site_viewer.html` (adjust if you change ports).
+
+## Repository layout (high level)
+
+| Path | Role |
+|------|------|
+| `site_viewer.html` | Main 3D shell and navigation |
+| `pages/` | HTML fragments / embed pages linked from the sidebar |
+| `media/3D-objects/` | OBJ, MTL, textures, decimated exports, `interaction_points.json` |
+| `sandarium_dashboard.py`, `camera_player.py`, `audio_player.py` | Panel applications |
+| `serve_site.py` | Local HTTP server for static files (port 8080) |
+| `decimate_model.py` | Mesh processing helpers (logs under `logs/`) |
+| `data/`, `video_db/`, `texts/` | Data and media inputs for dashboards and ingest scripts |
+
+## Project metadata
+
+- **Package name:** `web-viz` (see `pyproject.toml`)
+- **Description:** HabitatWeaves data visualization – 3D heatmap dashboard and interactive site viewer
+
+## License
+
+Specify your license here if the project is public (this repository does not ship a default `LICENSE` file in this snapshot).
