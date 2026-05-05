@@ -7,8 +7,9 @@ Interactive **3D site overview** and linked **environmental data views** for the
 <img width="860" height="632" alt="chrome_DfGgwzH916" src="https://github.com/user-attachments/assets/0da5d2b9-ace0-408d-8850-50d8e5789711" />
 
 ### Sandarium Heatmap
-<img width="954" height="607" alt="firefox_GBHjpcbHto" src="https://github.com/user-attachments/assets/300a7e6b-fed4-4cb2-b30b-69be3e04b220" />
+<img width="860" height="607" alt="firefox_GBHjpcbHto" src="https://github.com/user-attachments/assets/300a7e6b-fed4-4cb2-b30b-69be3e04b220" />
 The visualization features a synthetic dataset produced in Python. 
+
 
 ### Sensory Data Dashboards
 
@@ -21,6 +22,8 @@ The visualization features a synthetic dataset produced in Python.
 - **Sensory Data Dashboard**: Integration of ESP32-based mesh of environmental sensors, field cameras and soil contact microphone recordings
 - **Heatmaps** (Python): Soil temperature and humidity sensors distributed over the "Sandarium" habitat create a comprehensive coverage of year-round environmental conditions
 
+### Solar Powered Field Camera (ESP32)
+<img width="473" height="780" alt="IMG-20260409-WA0018-crop" src="https://github.com/user-attachments/assets/f80cc029-ba9f-456c-bece-44564d4924f1" />
 
 ## Tech stack
 
