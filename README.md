@@ -3,40 +3,38 @@
 Architecture for Biodiversity Installation - Bauhaus Foundation, 100 year Anniversary
 
 Interactive **3D site overview** and linked **environmental data views** for the Habitat Weaves x Bauhaus Dessau, architecture for biodiversity research colaboration. The Web Browser experience is a Three.js viewer with an OBJ/MTL building model, sensor **heatmap-style overlays**, and navigation to companion dashboards.
-
-| | |
-|---|---|
-| <img src="https://github.com/user-attachments/assets/8358dd45-7e1f-4887-9c3b-03153fee7966" width="400"/> | <img src="https://github.com/user-attachments/assets/6bbc8a19-4648-4ab5-a537-8a4c0a07ae3b" width="700"/> |
-
-## Features
-
-- **3D scan** [(polycam)](www.poly.cam): Environmental topography and texturing using photogrammetry
-- **3D pipeline** (Python): Mesh decimation and asset prep (`decimate_model.py`) toward web-friendly OBJ/MTL and `interaction_points.json`.
-- **Site viewer**: Orbit controls, fog/sky, station markers and tooltips, iframed sub-pages in the sidebar workflow.
-- **Sensory Data Dashboard**: Integration of ESP32-based mesh of environmental sensors, field cameras and soil contact microphone recordings
-- **Heatmaps** (Python): Soil temperature and humidity sensors distributed over the "Sandarium" habitat create a comprehensive coverage of year-round environmental conditions
-
-### 3D viewer 
+### Habitat Sky Viewer 
 <img width="860" height="632" alt="chrome_DfGgwzH916" src="https://github.com/user-attachments/assets/0da5d2b9-ace0-408d-8850-50d8e5789711" />
 
 ### Sandarium Heatmap
 <img width="954" height="607" alt="firefox_GBHjpcbHto" src="https://github.com/user-attachments/assets/300a7e6b-fed4-4cb2-b30b-69be3e04b220" />
-
+The visualization features a synthetic dataset produced in Python. 
 
 ### Sensory Data Dashboards
+
+
+## Features
+
+- **3D scan** ([polycam](www.poly.cam)): Environmental topography and texturing using photogrammetry
+- **3D pipeline** (Python): Mesh decimation and asset prep (`decimate_model.py`) toward web-friendly OBJ/MTL and `interaction_points.json`.
+- **Site viewer**: Orbit controls, fog/sky, station markers and tooltips, iframed sub-pages in the sidebar workflow.
+- **Sensory Data Dashboard**: Integration of ESP32-based mesh of environmental sensors, field cameras and soil contact microphone recordings
+- **Heatmaps** (Python): Soil temperature and humidity sensors distributed over the "Sandarium" habitat create a comprehensive coverage of year-round environmental conditions
 
 
 ## Tech stack
 
 | Area | Stack |
 |------|--------|
-| Viewer | HTML/CSS, [Three.js](https://threejs.org/) (ES modules), OBJLoader |
-| Backing services | Python 3.11+, [uv](https://github.com/astral-sh/uv), Panel, NumPy/Pandas, PyVista/Trimesh |
+| Web-Viewer | [Panel](https://panel.holoviz.org/) |
+| 3D-Viewer | [PyVista/Trimesh](https://docs.pyvista.org/) |
+| Data manipulation | NumPy/Pandas
+| Backing services | [uv](https://github.com/astral-sh/uv), Python 3.11 |
 
-## Prerequisites
+| | |
+|---|---|
+| <img src="https://github.com/user-attachments/assets/8358dd45-7e1f-4887-9c3b-03153fee7966" width="400"/> | <img src="https://github.com/user-attachments/assets/6bbc8a19-4648-4ab5-a537-8a4c0a07ae3b" width="700"/> |
 
-- Python **3.11+**
-- [uv](https://docs.astral.sh/uv/) for installing dependencies from `pyproject.toml`
 
 ## Quick start (site viewer)
 
