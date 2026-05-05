@@ -34,9 +34,14 @@ The visualization features a synthetic dataset produced in Python.
 | Data manipulation | NumPy/Pandas
 | Backing services | [uv](https://github.com/astral-sh/uv), Python 3.11 |
 
+## Physical stack
+
 | | |
 |---|---|
 | <img src="https://github.com/user-attachments/assets/8358dd45-7e1f-4887-9c3b-03153fee7966" width="400"/> | <img src="https://github.com/user-attachments/assets/6bbc8a19-4648-4ab5-a537-8a4c0a07ae3b" width="700"/> |
+| Mycelium <img width="2048" height="1536" alt="IMG-20260328-WA0023" src="https://github.com/user-attachments/assets/37a9b6f7-c94f-4248-aac4-95ded4de4e6f" /> | Clay printing <img width="2048" height="1536" alt="IMG-20260215-WA0009" src="https://github.com/user-attachments/assets/5494c932-57bc-47a5-b56d-3e0e9f4585c1" /> |
+
+
 
 
 ## Quick start (site viewer)
