@@ -1,11 +1,11 @@
 # Habitat Weaves – Web visualization 
 
-Architecture for Biodiversity Installation - Bauhaus Foundation, 100 year Anniversary, featuring [Asya Ilgün](https://www.asyailgun.me/), [Chair for Biohybrid Architecture - Royal Danish Academy](https://royaldanishacademy.com/en/profile/4864) (Prof. Phil Ayres, Madison Lindsay), [Swiss Community Lab for Mycelium Research, K-Lab](https://linktr.ee/keller_lab)(Ove Mattmann) and _______. 
+Architecture for Biodiversity Installation - Bauhaus Foundation, 100 year Anniversary, featuring [Asya Ilgün](https://www.asyailgun.me/), [Chair for Biohybrid Architecture - Royal Danish Academy](https://royaldanishacademy.com/en/profile/4864) (Prof. Phil Ayres, Madison Lindsay), [Swiss Community Lab for Mycelium Research, K-Lab](https://linktr.ee/keller_lab)(Ove Mattmann). 
 
 | | |
 |---|---|
-|Outdoor Willow Weaving Installation <img src="https://github.com/user-attachments/assets/6bbc8a19-4648-4ab5-a537-8a4c0a07ae3b" width="700"/> | <img src="https://github.com/user-attachments/assets/8358dd45-7e1f-4887-9c3b-03153fee7966" width="400"/>|
-| Mycelium <img width="2048" height="1536" alt="IMG-20260328-WA0023" src="https://github.com/user-attachments/assets/37a9b6f7-c94f-4248-aac4-95ded4de4e6f" /> | Clay printing <img width="2048" height="1536" alt="IMG-20260215-WA0009" src="https://github.com/user-attachments/assets/5494c932-57bc-47a5-b56d-3e0e9f4585c1" /> |
+|**Outdoor Willow Weaving Installation** <img src="https://github.com/user-attachments/assets/6bbc8a19-4648-4ab5-a537-8a4c0a07ae3b" width="700"/> | <img src="https://github.com/user-attachments/assets/8358dd45-7e1f-4887-9c3b-03153fee7966" width="400"/>|
+| **Mycelium Composite Materials** <img width="2048" height="1536" alt="IMG-20260328-WA0023" src="https://github.com/user-attachments/assets/37a9b6f7-c94f-4248-aac4-95ded4de4e6f" /> | **Clay printing** <img width="2048" height="1536" alt="IMG-20260215-WA0009" src="https://github.com/user-attachments/assets/5494c932-57bc-47a5-b56d-3e0e9f4585c1" /> |
 
 
 Interactive **3D site overview** and linked **environmental data views** for the Habitat Weaves x Bauhaus Dessau, architecture for biodiversity research colaboration. The Web Browser experience is a Three.js viewer with an OBJ/MTL building model, sensor **heatmap-style overlays**, and navigation to companion dashboards.
@@ -13,12 +13,13 @@ Interactive **3D site overview** and linked **environmental data views** for the
 ### Habitat Bird Viewer 
 <img width="860" height="632" alt="chrome_DfGgwzH916" src="https://github.com/user-attachments/assets/0da5d2b9-ace0-408d-8850-50d8e5789711" />
 
-### Sandarium Heatmap
-<img width="860" height="607" alt="firefox_GBHjpcbHto" src="https://github.com/user-attachments/assets/300a7e6b-fed4-4cb2-b30b-69be3e04b220" />
-The visualization features a synthetic dataset produced in Python. 
-
-
 ### Sensory Data Dashboards
+
+|  Solar Powered Field Camera (ESP32) |Sandarium Heatmap |
+|------|--------|
+|<img width="473" height="780" alt="IMG-20260409-WA0018-crop" src="https://github.com/user-attachments/assets/f80cc029-ba9f-456c-bece-44564d4924f1" /> | <img width="860" height="607" alt="firefox_GBHjpcbHto" src="https://github.com/user-attachments/assets/300a7e6b-fed4-4cb2-b30b-69be3e04b220" /> |
+
+The shown temperature curves are based on a synthetic dataset produced in Python. 
 
 
 ## Features
@@ -29,8 +30,8 @@ The visualization features a synthetic dataset produced in Python.
 - **Sensory Data Dashboard**: Integration of ESP32-based mesh of environmental sensors, field cameras and soil contact microphone recordings
 - **Heatmaps** (Python): Soil temperature and humidity sensors distributed over the "Sandarium" habitat create a comprehensive coverage of year-round environmental conditions
 
-### Solar Powered Field Camera (ESP32)
-<img width="473" height="780" alt="IMG-20260409-WA0018-crop" src="https://github.com/user-attachments/assets/f80cc029-ba9f-456c-bece-44564d4924f1" />
+### 
+
 
 ## Tech stack
 
