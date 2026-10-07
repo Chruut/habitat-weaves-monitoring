@@ -1,9 +1,16 @@
 # Habitat Weaves – Web visualization 
 
-Architecture for Biodiversity Installation - Bauhaus Foundation, 100 year Anniversary
+Architecture for Biodiversity Installation - Bauhaus Foundation, 100 year Anniversary, featuring [Asya Ilgün](https://www.asyailgun.me/), [Chair for Biohybrid Architecture - Royal Danish Academy](https://royaldanishacademy.com/en/profile/4864) (Prof. Phil Ayres, Madison Lindsay), [Swiss Community Lab for Mycelium Research, K-Lab](https://linktr.ee/keller_lab)(Ove Mattmann) and _______. 
+
+| | |
+|---|---|
+|Outdoor Willow Weaving Installation <img src="https://github.com/user-attachments/assets/6bbc8a19-4648-4ab5-a537-8a4c0a07ae3b" width="700"/> | <img src="https://github.com/user-attachments/assets/8358dd45-7e1f-4887-9c3b-03153fee7966" width="400"/>|
+| Mycelium <img width="2048" height="1536" alt="IMG-20260328-WA0023" src="https://github.com/user-attachments/assets/37a9b6f7-c94f-4248-aac4-95ded4de4e6f" /> | Clay printing <img width="2048" height="1536" alt="IMG-20260215-WA0009" src="https://github.com/user-attachments/assets/5494c932-57bc-47a5-b56d-3e0e9f4585c1" /> |
+
 
 Interactive **3D site overview** and linked **environmental data views** for the Habitat Weaves x Bauhaus Dessau, architecture for biodiversity research colaboration. The Web Browser experience is a Three.js viewer with an OBJ/MTL building model, sensor **heatmap-style overlays**, and navigation to companion dashboards.
-### Habitat Sky Viewer 
+
+### Habitat Bird Viewer 
 <img width="860" height="632" alt="chrome_DfGgwzH916" src="https://github.com/user-attachments/assets/0da5d2b9-ace0-408d-8850-50d8e5789711" />
 
 ### Sandarium Heatmap
@@ -33,13 +40,6 @@ The visualization features a synthetic dataset produced in Python.
 | 3D-Viewer | [PyVista/Trimesh](https://docs.pyvista.org/) |
 | Data manipulation | NumPy/Pandas
 | Backing services | [uv](https://github.com/astral-sh/uv), Python 3.11 |
-
-## Physical stack
-
-| | |
-|---|---|
-| <img src="https://github.com/user-attachments/assets/8358dd45-7e1f-4887-9c3b-03153fee7966" width="400"/> | <img src="https://github.com/user-attachments/assets/6bbc8a19-4648-4ab5-a537-8a4c0a07ae3b" width="700"/> |
-| Mycelium <img width="2048" height="1536" alt="IMG-20260328-WA0023" src="https://github.com/user-attachments/assets/37a9b6f7-c94f-4248-aac4-95ded4de4e6f" /> | Clay printing <img width="2048" height="1536" alt="IMG-20260215-WA0009" src="https://github.com/user-attachments/assets/5494c932-57bc-47a5-b56d-3e0e9f4585c1" /> |
 
 
 
