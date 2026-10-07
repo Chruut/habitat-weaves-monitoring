@@ -1,6 +1,6 @@
 # Habitat Weaves – Web visualization 
 
-Architecture for Biodiversity Installation - Bauhaus Foundation, 100 year Anniversary, featuring [Asya Ilgün](https://www.asyailgun.me/), [Chair for Biohybrid Architecture - Royal Danish Academy](https://royaldanishacademy.com/en/profile/4864) (Prof. Phil Ayres, Madison Lindsay), [Swiss Community Lab for Mycelium Research, K-Lab](https://linktr.ee/keller_lab)(Ove Mattmann). 
+Architecture for Biodiversity Installation - Bauhaus Foundation, 100 year Anniversary, featuring [Complexity of Life in Basic Research and Innovation - University of Graz (Asya Ilgün)](https://www.asyailgun.me/), [Chair for Biohybrid Architecture - Royal Danish Academy (Prof. Phil Ayres, Madison Lindsay)](https://royaldanishacademy.com/en/profile/4864), [Swiss Community Lab for Mycelium Research, K-Lab (Ove Mattmann)](https://linktr.ee/keller_lab). 
 
 | | |
 |---|---|
